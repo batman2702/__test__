@@ -2,7 +2,7 @@ import unittest
 
 class TestStringMethods(unittest.TestCase):
     def test_upper(self):
-        self.assertEqual('foi'.upper(), 'FOO')
+        self.assertEqual('foo'.upper(), 'FOO')
 
 
 if __name__ == '__main__':
